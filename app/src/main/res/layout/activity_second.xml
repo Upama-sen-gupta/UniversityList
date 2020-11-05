@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SecondActivity">
+
+    <Button
+        android:id="@+id/btn_cuet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#697FF6"
+        android:text="Cuet"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btn_cu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#4C65EF"
+        android:text="Cu"
+        android:textSize="24sp" />
+</LinearLayout>
